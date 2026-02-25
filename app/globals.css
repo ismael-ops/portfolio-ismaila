@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@layer base {
+  body {
+    @apply bg-cream text-gray-800;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+  
+  .btn {
+    @apply px-6 py-2 rounded-full border-2 border-gray-800 hover:bg-gray-800 hover:text-white transition-all duration-300;
+  }
+}
