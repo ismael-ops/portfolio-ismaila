@@ -73,7 +73,7 @@ export default function Home() {
             className="flex flex-wrap gap-4 justify-center"
           >
             <a
-              href="#message"
+              href="/message"
               className="btn text-sm font-medium"
             >
               laisse un <span className="text-blue-400 font-handwriting">message</span>
