@@ -17,7 +17,7 @@ const projects = [
     title: 'Movie bot',
     emoji: '🎬',
     description: 'assistant intelligent basé sur un graphe de connaissances, capable de répondre en temps réel à des questions sur un univers cinématographique en reliant personnages, lieux et événements via une base de données relationnelle orientée graphes.',
-    tags: ['OpenAi Api', 'Python', 'Neo4j', 'Streamlit'],
+    tags: ['OpenAi Api', 'python', 'Neo4j', 'Streamlit'],
     color: 'bg-peach/30',
     link: 'youtube.com/watch?v=7nbh18jnMBM&feature=youtu.be',
   },
